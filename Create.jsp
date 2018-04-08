@@ -281,7 +281,7 @@ $(document).ready(function(){
 						<span style="font-size:50px;"><%out.println(TotalSubjects); %></span></div>
 						<div class="panel-footer text-center">
 						<center>
-							<button data-target="#CreateSubject" class="btn btn-lg btn-primary buttonCircle" style="background-color:color:#fff;">
+							<button data-target="#CreateSubject" class="btn btn-lg btn-primary buttonCircle" style="background-color:#fff;">
 								<span class="glyphicon glyphicon-plus" style="font-size:20px;"></span>
 							</button>
 						</center>
@@ -296,7 +296,7 @@ $(document).ready(function(){
 						<span style="font-size:50px;"><%out.println(TotalExams); %></span></div>
 						<div class="panel-footer text-center">
 						<center>
-							<button data-target="#CreateExam" class="btn btn-lg btn-primary buttonCircle" style="background-color:color:#fff;">
+							<button data-target="#CreateExam" class="btn btn-lg btn-primary buttonCircle" style="background-color:#fff;">
 								<span class="glyphicon glyphicon-plus" style="font-size:20px;"></span>
 							</button>
 						</center>
@@ -310,7 +310,7 @@ $(document).ready(function(){
 						<div class="panel-body font-times text-bold font-serif"><span style="font-size:50px;"><%out.println(TotalQuestions); %></span></div>
 						<div class="panel-footer text-center">
 						<center>
-							<button data-target="#CreateQuestion" class="btn btn-lg btn-primary buttonCircle" style="background-color:color:#fff;">
+							<button data-target="#CreateQuestion" class="btn btn-lg btn-primary buttonCircle" style="background-color:#fff;">
 								<span class="glyphicon glyphicon-plus" style="font-size:20px;"></span>
 							</button>
 						</center>
