@@ -1,0 +1,87 @@
+@CHARSET "ISO-8859-1";
+
+@keyframes RollUp
+{
+	to{height:30px;}
+}
+@keyframes RollDown
+{
+	to{max-height:80vh;}
+}
+
+.RollUp
+{
+	animation-name:RollUp;
+	animation-duration:0.5s;
+}
+.RollDown
+{
+	animation-name:RollDown;
+	animation-duration:0.5s;
+}
+
+#CreateTest
+{
+/* 	background-image:url("../images/DarkWood.jpg"); */
+		background-size:cover;
+	background-repeat:no-repeat;
+}
+#CreateQuestions
+{
+/* 	background-image:url("../images/Texture2.jpg"); */
+		background-size:cover;
+	background-repeat:no-repeat;
+}
+#CreateSubject
+{
+/* 	background-image:url("../images/Texture3.jpg"); */
+		background-size:cover;
+	background-repeat:no-repeat;
+}
+#Developer
+{
+/* 	background-image:url("../images/Cool/Wings.jpg"); */
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.Vertical-Scroll
+{
+	background-color:#000;
+	min-height:100vh;
+	width:99vw;
+	margin-bottom:10px;
+}
+
+.panel
+  {
+  	border:2px solid #fff;
+  	box-shadow:0px 0px 3px 4px #fff;
+  }
+  .panel-heading
+  {
+  	background-color:rgba(0,0,0,1);
+  	color:#fff;	
+  }
+  .panel-body
+  {
+  	background-color:#c0c0c0;
+  	color:#000;
+  }
+  .panel-footer
+  {
+  	background-color:rgba(0,0,0,1);
+  }
+  .panel
+  {
+  	margin-left:50px;
+  	margin-right:50px;
+  }
+  
+  .buttonCircle
+  {
+  	border-radius:50%;
+  }
+  .OptionsArea
+  {
+  	z-index:+1;
+  }

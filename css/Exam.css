@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+.QuestionDiv
+{
+	padding:10px;
+	margin-bottom:10px;
+	color:rgba(51,255,15,1);
+	font-size:15px;
+	letter-spacing:2px;
+	border:2px solid rgba(0,0,0,1);
+	box-shadow: 0 0 10px 8px rgba(0,0,0,0.8);
+	background-color:rgba(0,0,0,1);
+}
+.ScrollableQues
+{
+	overflow:scroll;
+	height:40vh;
+	width:75vw;
+}
+.EndOfQuestions
+{
+	background-color:rgba(0,0,0,1);
+	color:#fff;
+	font-size:25px;
+}

@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+.table-Lead
+{
+	
+}
+.table-Lead th
+{
+	font-size:20px;
+	text-align:center;
+}
+.table-Lead tr:nth-child(2n)
+{
+	background-color:rgba(0,0,255,0.1);
+}
+.table-Lead th span
+{
+	font-size:10px;
+	opacity:0.5;
+}
+.table-Lead th span:hover
+{
+	font-size:10px;
+	opacity:0.8;
+	cursor:pointer;
+}

@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+.profile-tabs
+{
+	color:#ffffff;
+}
+.profile-tabs>li.active>a
+{
+	background-color:#008000;
+}
+.profile-tabs>li.active>a:hover
+{
+	background-color:#009000;
+}
+.profile-tabs>li>a:hover
+{
+	background-color:#009000;
+}
+.profile-tabs li
+{
+	font-size:20px;
+	letter-spacing:2px;
+	word-spacing:5px;
+	color:#ffffff;
+}
+.profile-tabs li:click
+{
+	transition:0.4s;
+	letter-spacing:3px;
+	text-shadow:2px 2px 4px #c0c0c0, 0px 0px 10px #f0f0f0;
+	font-weight:bold;
+}
+.profile-table
+{
+	color:#c0c0c0;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	word-spacing:5px;
+/* 	background:#303030; */
+	box-shadow:0px 0px 10px 8px #ffffff;
+	padding:10px;
+}
+.profile-table th
+{
+	background:#000;
+	color:#fff;
+	size:20px;
+	letter-spacing:3px;
+	padding:10px;
+}
+/* .profile-table td:hover */
+/* { */
+/* 	transition:0.3s; */
+/* 	color:#fff; */
+/* 	letter-spacing:3px; */
+/* } */

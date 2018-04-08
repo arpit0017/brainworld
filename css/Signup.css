@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+.popover
+{
+	color:#000;
+	font-weight:bold;
+	background-color:#c0c0c0;
+	transition:0s;
+}
